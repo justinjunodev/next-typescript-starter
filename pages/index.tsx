@@ -1,17 +1,10 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
+import SEO from 'components/SEO';
 
 const Home: NextPage = () => {
   return (
     <div>
-      <Head>
-        <title>Next + TypeScript Starter</title>
-        <meta
-          name="description"
-          content="A Next + TypeScript starter by Justin Juno."
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SEO pageName="Home" />
 
       <h1>Next + TypeScript Starter</h1>
     </div>

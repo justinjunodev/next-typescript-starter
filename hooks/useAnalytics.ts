@@ -1,9 +1,11 @@
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import * as Fathom from 'fathom-client';
+import metaFields from 'lib/metaFields';
 
 function useAnalytics() {
   const router = useRouter();
+  const { siteDomain } = metaFields;
 
   useEffect(() => {
     if (
@@ -11,7 +13,7 @@ function useAnalytics() {
       process.env.NEXT_PUBLIC_FATHOM_SITE_ID
     ) {
       Fathom.load(process.env.NEXT_PUBLIC_FATHOM_SITE_ID, {
-        includedDomains: ['domain.com'],
+        includedDomains: [siteDomain],
       });
     }
 
@@ -24,7 +26,7 @@ function useAnalytics() {
     return () => {
       router.events.off('routeChangeComplete', onRouteChangeComplete);
     };
-  }, [router.events]);
+  }, [router.events, siteDomain]);
 }
 
 export default useAnalytics;
