@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import Link from 'next/Link';
+import Link from 'next/link';
 import SEO from 'components/SEO';
 
 const PageNotFound: NextPage = () => {
