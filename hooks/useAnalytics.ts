@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import * as Fathom from 'fathom-client';
 import metaFields from 'lib/metaFields';
 
-function useAnalytics() {
+const useAnalytics = () => {
   const router = useRouter();
   const { siteDomain } = metaFields;
 
@@ -27,6 +27,6 @@ function useAnalytics() {
       router.events.off('routeChangeComplete', onRouteChangeComplete);
     };
   }, [router.events, siteDomain]);
-}
+};
 
 export default useAnalytics;

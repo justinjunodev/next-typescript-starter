@@ -7,7 +7,7 @@ type SEOProps = {
   pageImage?: string;
 };
 
-function SEO({ pageName, pageDesc, pageImage }: SEOProps) {
+const SEO = ({ pageName, pageDesc, pageImage }: SEOProps) => {
   const { siteTitle, siteDesc, siteDomain, siteUrl, siteImage, siteFavicon } =
     metaFields;
 
@@ -35,6 +35,6 @@ function SEO({ pageName, pageDesc, pageImage }: SEOProps) {
       <meta name="twitter:image" content={image} />
     </Head>
   );
-}
+};
 
 export default SEO;

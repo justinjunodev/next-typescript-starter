@@ -1,8 +1,9 @@
 import type { AppProps } from 'next/app';
 import useAnalytics from 'hooks/useAnalytics';
 
-function MyApp({ Component, pageProps }: AppProps) {
+const App = ({ Component, pageProps }: AppProps) => {
   useAnalytics();
   return <Component {...pageProps} />;
-}
-export default MyApp;
+};
+
+export default App;
