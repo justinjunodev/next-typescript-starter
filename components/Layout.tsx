@@ -17,7 +17,7 @@ const StyledLayout = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 
   > *:not(:last-child) {
     margin-bottom: 1rem;
