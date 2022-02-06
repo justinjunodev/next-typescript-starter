@@ -1,7 +1,9 @@
 import type { AppProps } from 'next/app';
 import GlobalStyles from 'styles/global';
+import { ThemeProvider } from 'styled-components';
 import useAxe from 'hooks/useAxe';
 import useAnalytics from 'hooks/useAnalytics';
+import theme from 'styles/theme';
 
 const App = ({ Component, pageProps }: AppProps) => {
   useAxe();
@@ -10,7 +12,9 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <GlobalStyles />
-      <Component {...pageProps} />
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 };
