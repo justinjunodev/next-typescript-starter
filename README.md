@@ -30,13 +30,13 @@
 ### 🔗 Documentation and Resources:
 
 - **[Next](https://nextjs.org/)** - React framework for production.
-- [**TypeScript**](https://www.typescriptlang.org/) - Strongly-typed programming language that builds on JavaScript.
+- **[TypeScript](https://www.typescriptlang.org/)** - Strongly-typed programming language that builds on JavaScript.
 - **[Styled-Components](https://styled-components.com/)** - CSS-in-JS styling solution.
 - **[ESLint](https://eslint.org/)** - Code analysis tool monitoring code and maintaining quality.
-- [**Prettier**](https://prettier.io/) - Opinionated code formatter.
+- **[Prettier](https://prettier.io/)** - Opinionated code formatter.
 - **[Axe-Core](https://www.npmjs.com/package/@axe-core/react)** - Accessibility testing library.
-- [**Next-Sitemap**](https://www.npmjs.com/package/next-sitemap) - Sitemap generator for Next.
-- [**Fathom**](https://usefathom.com/ref/FBBCWG) - Privacy first analytics.
+- **[Next-Sitemap](https://www.npmjs.com/package/next-sitemap)** - Sitemap generator for Next.
+- **[Fathom](https://usefathom.com/ref/FBBCWG)** - Privacy first analytics.
 
 ---
 
