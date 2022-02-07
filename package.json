@@ -1,6 +1,8 @@
 {
   "name": "next-ts-starter",
   "version": "0.1.0",
+  "author": "Justin Juno <hello@justinjuno.dev>",
+  "description": "A Next + TypeScript Starter by Justin Juno.",
   "private": true,
   "scripts": {
     "dev": "next dev",
