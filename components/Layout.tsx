@@ -18,6 +18,8 @@ const StyledLayout = styled.main`
   justify-content: center;
   height: 100vh;
   width: 100vw;
+  text-align: center;
+  padding: 1rem;
 
   > *:not(:last-child) {
     margin-bottom: 1rem;
