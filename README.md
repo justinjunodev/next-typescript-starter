@@ -36,7 +36,7 @@
 - [**Prettier**](https://prettier.io/) - Opinionated code formatter.
 - **[Axe-Core](https://www.npmjs.com/package/@axe-core/react)** - Accessibility testing library.
 - [**Next-Sitemap**](https://www.npmjs.com/package/next-sitemap) - Sitemap generator for Next.
-- [**Fathom**](https://usefathom.com/) - Privacy first analytics.
+- [**Fathom**](https://usefathom.com/ref/FBBCWG) - Privacy first analytics.
 
 ---
 
