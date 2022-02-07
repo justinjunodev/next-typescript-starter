@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next + TypeScript Starter
 
-## Getting Started
+**A Next + TypeScript Starter by [Justin Juno](https://justinjuno.dev/). Featuring Styled-Components, ESLint, Prettier, Axe a11y monitoring, Fathom analytics, sitemap generation, and more!**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### ✅ Feature Overview:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Preconfigured `Styled-Components` with global styles, a reset, and theme support.
+- Preconfigured `ESLint` + `Prettier` files for maintaining code standards and consistency.
+- `useAnalytics` hook for quickly enabling site analytics via Fathom.
+- `useAxe` hook for monitoring and reporting accessibility issues via Chrome console.
+- Custom `SEO` component based on Open Graph standards.
+- Custom `404` page for invalid routes.
+- Automatic sitemap and robots.txt generation with `next-sitemap`.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### 🚀 Getting Started:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Clone and/ or download the project locally. 
+2. Navigate to the projects root directory and install its dependencies: `npm i`
+3. Open `lib/metaFields` in your editor and update the default meta fields. *Note: this is an important step, as these fields are referenced in the `SEO` component, `useAnalytics` hook, and `next-sitemap`.* 
+4. Rename the `.env.sample` file to `.env.local` and add your Fathom site id to the `NEXT_PUBLIC_FATHOM_SITE_ID` environment variable. You’ll also need to add this environment variable to your project's deployment settings in Vercel (or wherever your project is hosted). *Note:* *If you are not using Fathom analytics, you can delete the `hooks/useAnalytics` file and remove its invocation from `_app.tsx`.* 
+5. You’re ready to code! Start your development environment `npm run dev` and build something awesome.  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### 🔗 Documentation and Resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **[Next](https://nextjs.org/)** - React framework for production.
+- [**TypeScript**](https://www.typescriptlang.org/) - Strongly-typed programming language that builds on JavaScript.
+- **[Styled-Components](https://styled-components.com/)** - CSS-in-JS styling solution.
+- **[ESLint](https://eslint.org/)** - Code analysis tool monitoring code and maintaining quality.
+- [**Prettier**](https://prettier.io/) - Opinionated code formatter.
+- **[Axe-Core](https://www.npmjs.com/package/@axe-core/react)** - Accessibility testing library.
+- [**Next-Sitemap**](https://www.npmjs.com/package/next-sitemap) - Sitemap generator for Next.
+- [**Fathom**](https://usefathom.com/) - Privacy first analytics.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### ⭐️ Contributions:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thanks for your interest in this project! Pull Requests are welcome for any level of improvement, from small typos to pesky bugs, let’s make this project better. When opening or responding to an issue, please be kind, patient, and open to feedback. Derogatory comments, insults, etc. aren't cool, nor tolerated.
