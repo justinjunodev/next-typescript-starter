@@ -11,6 +11,7 @@
 - `useAnalytics` hook for quickly enabling site analytics via Fathom.
 - `useAxe` hook for monitoring and reporting accessibility issues via Chrome console.
 - Custom `SEO` component based on Open Graph standards.
+- Custom `Link` component for handling both internal and external links.
 - Custom `404` page for invalid routes.
 - Automatic sitemap and robots.txt generation with `next-sitemap`.
 
@@ -18,11 +19,11 @@
 
 ### 🚀 Getting Started:
 
-1. Clone and/ or download the project locally. 
+1. Clone and/ or download the project locally.
 2. Navigate to the projects root directory and install its dependencies: `npm i`
-3. Open `lib/metaFields` in your editor and update the default meta fields. *Note: this is an important step, as these fields are referenced in the `SEO` component, `useAnalytics` hook, and `next-sitemap`.* 
-4. Rename the `.env.sample` file to `.env.local` and add your Fathom site id to the `NEXT_PUBLIC_FATHOM_SITE_ID` environment variable. You’ll also need to add this environment variable to your project's deployment settings in Vercel (or wherever your project is hosted). *Note:* *If you are not using Fathom analytics, you can delete the `hooks/useAnalytics` file and remove its invocation from `_app.tsx`.* 
-5. You’re ready to code! Start your development environment `npm run dev` and build something awesome.  
+3. Open `lib/metaFields` in your editor and update the default meta fields. _Note: this is an important step, as these fields are referenced in the `SEO` component, `useAnalytics` hook, and `next-sitemap`._
+4. Rename the `.env.sample` file to `.env.local` and add your Fathom site id to the `NEXT_PUBLIC_FATHOM_SITE_ID` environment variable. You’ll also need to add this environment variable to your project's deployment settings in Vercel (or wherever your project is hosted). _Note:_ _If you are not using Fathom analytics, you can delete the `hooks/useAnalytics` file and remove its invocation from `_app.tsx`._
+5. You’re ready to code! Start your development environment `npm run dev` and build something awesome.
 
 ---
 
