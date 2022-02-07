@@ -2,6 +2,12 @@
 
 **A Next + TypeScript Starter by [Justin Juno](https://justinjuno.dev/). Featuring Styled-Components, ESLint, Prettier, Axe a11y monitoring, Fathom analytics, sitemap generation, and more!**
 
+![image](	https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![image](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![image](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
+![image](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
+
 ---
 
 ### ✅ Feature Overview:
