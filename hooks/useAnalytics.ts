@@ -5,7 +5,8 @@ import metaFields from 'lib/metaFields';
 
 const useAnalytics = () => {
   const router = useRouter();
-  const { siteDomain } = metaFields;
+  const { siteDomain, siteUrl } = metaFields;
+  const formattedSiteUrl = siteUrl.replace(/^https?:\/\//, '');
 
   useEffect(() => {
     if (
@@ -13,7 +14,7 @@ const useAnalytics = () => {
       process.env.NEXT_PUBLIC_FATHOM_SITE_ID
     ) {
       Fathom.load(process.env.NEXT_PUBLIC_FATHOM_SITE_ID, {
-        includedDomains: [siteDomain],
+        includedDomains: [siteDomain, formattedSiteUrl],
       });
     }
 
@@ -26,7 +27,7 @@ const useAnalytics = () => {
     return () => {
       router.events.off('routeChangeComplete', onRouteChangeComplete);
     };
-  }, [router.events, siteDomain]);
+  }, [router.events, siteDomain, formattedSiteUrl]);
 };
 
 export default useAnalytics;
