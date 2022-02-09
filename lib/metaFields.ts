@@ -4,8 +4,8 @@ const metaFields = {
     'A Next + TypeScript Starter by Justin Juno. Featuring Styled-Components, ESLint, Prettier, Axe a11y reporting, Fathom analytics, sitemap generation, and more!',
   siteDomain: 'domain.com',
   siteUrl: 'https://www.domain.com',
-  siteImage: '/preview.png',
-  siteFavicon: '/favicon.ico',
+  siteImage: '/images/preview.png',
+  siteFavicon: '/images/favicon.ico',
 };
 
 export default metaFields;
