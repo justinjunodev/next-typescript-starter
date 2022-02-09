@@ -8,22 +8,20 @@
 ![image](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
 ![image](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 
----
+### ✅ Feature Overview.
 
-### ✅ Feature Overview:
-
-- Preconfigured `Styled-Components` with global styles, a reset, and theme support.
-- Preconfigured `ESLint` + `Prettier` files for maintaining code standards and consistency.
-- `useAnalytics` hook for quickly enabling site analytics via Fathom.
-- `useAxe` hook for monitoring and reporting accessibility issues via Chrome console.
-- Custom `SEO` component based on Open Graph standards.
-- Custom `Link` component for handling both internal and external links.
-- Custom `404` page for invalid routes.
-- Automatic sitemap and robots.txt generation with `next-sitemap`.
+- [x] `Styled-Components` with global styles, a modern reset, and theme support.
+- [x] `ESLint` + `Prettier` setup for maintaining code quality and formatting.
+- [x] `useAnalytics` hook for quickly enabling site analytics via Fathom.
+- [x] `useAxe` hook for monitoring and reporting accessibility issues via Chrome console.
+- [x] Custom `SEO` component based on Open Graph standards.
+- [x] Custom `Link` component for handling both internal and external links.
+- [x] Custom `404` page for invalid routes.
+- [x] Automatic sitemap and robots.txt generation with `next-sitemap`.
 
 ---
 
-### 🚀 Getting Started:
+### 🚀 Getting Started.
 
 1. Clone and/ or download the project locally.
 2. Navigate to the projects root directory and install its dependencies: `npm i`
@@ -33,7 +31,7 @@
 
 ---
 
-### 🔗 Documentation and Resources:
+### 🔗 Documentation and Resources.
 
 - **[Next](https://nextjs.org/)** - React framework for production.
 - **[TypeScript](https://www.typescriptlang.org/)** - Strongly-typed programming language that builds on JavaScript.
@@ -46,6 +44,12 @@
 
 ---
 
-### ⭐️ Contributions:
+### 🙇‍♂️ Credits.
+
+- [Josh W Comeau](https://twitter.com/joshwcomeau) for his amazing [css reset](https://www.joshwcomeau.com/css/custom-css-reset/) that I included in this project.
+
+---
+
+### ⭐️ Contributions.
 
 Thanks for your interest in this project! Pull Requests are welcome for any level of improvement, from small typos to pesky bugs, let’s make this project better. When opening or responding to an issue, please be kind, patient, and open to feedback. Derogatory comments, insults, etc. aren't cool, nor tolerated.
