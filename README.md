@@ -52,4 +52,4 @@
 
 ### ⭐️ Contributions.
 
-Thanks for your interest in this project! Pull Requests are welcome for any level of improvement, from small typos to pesky bugs, let’s make this project better. When opening or responding to an issue, please be kind, patient, and open to feedback. Derogatory comments, insults, etc. aren't cool, nor tolerated.
+Thanks for your interest in this project! Pull Requests are welcome for any level of improvement, from small typos to pesky bugs, let’s make this project better. More information can be found in the `CONTRIBUTING.md` file.
