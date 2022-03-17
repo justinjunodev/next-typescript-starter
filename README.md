@@ -46,7 +46,7 @@
 
 ### 🙇‍♂️ Credits.
 
-- [Josh W Comeau](https://twitter.com/joshwcomeau) for his amazing [css reset](https://www.joshwcomeau.com/css/custom-css-reset/) that I included in this project.
+- [Josh W Comeau](https://twitter.com/joshwcomeau) for his amazing [css reset](https://www.joshwcomeau.com/css/custom-css-reset/) that I _lightly_ extended for this starter.
 
 ---
 
