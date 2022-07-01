@@ -1,19 +1,19 @@
 import Head from 'next/head';
-import metaFields from 'lib/metaFields';
+import { metaFields } from 'lib';
 
-type SEOProps = {
+interface SEOProps {
   pageName?: string;
   pageDesc?: string;
   pageImage?: string;
-};
+}
 
-const SEO = ({ pageName, pageDesc, pageImage }: SEOProps) => {
+export const SEO = ({ pageName, pageDesc, pageImage }: SEOProps) => {
   const { siteTitle, siteDesc, siteDomain, siteUrl, siteImage, siteFavicon } =
     metaFields;
 
   const title = pageName ? `${pageName} | ${siteTitle}` : siteTitle;
-  const description = pageDesc ? pageDesc : siteDesc;
-  const image = pageImage ? pageImage : siteImage;
+  const description = pageDesc || siteDesc;
+  const image = pageImage || siteImage;
 
   return (
     <Head>
@@ -36,5 +36,3 @@ const SEO = ({ pageName, pageDesc, pageImage }: SEOProps) => {
     </Head>
   );
 };
-
-export default SEO;

@@ -1,9 +1,9 @@
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import * as Fathom from 'fathom-client';
-import metaFields from 'lib/metaFields';
+import { metaFields } from 'lib';
 
-const useAnalytics = () => {
+export const useAnalytics = () => {
   const router = useRouter();
   const { siteDomain, siteUrl } = metaFields;
   const formattedSiteUrl = siteUrl.replace(/^https?:\/\//, '');
@@ -29,5 +29,3 @@ const useAnalytics = () => {
     };
   }, [router.events, siteDomain, formattedSiteUrl]);
 };
-
-export default useAnalytics;

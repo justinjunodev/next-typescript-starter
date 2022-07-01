@@ -24,10 +24,11 @@
 ### 🚀 Getting Started.
 
 1. Clone and/ or download the project locally.
-2. Navigate to the projects root directory and install its dependencies: `npm i`
-3. Open `lib/metaFields` in your editor and update the default meta fields. _Note: this is an important step, as these fields are referenced in the `SEO` component, `useAnalytics` hook, and `next-sitemap`._
-4. Rename the `.env.sample` file to `.env.local` and add your Fathom site id to the `NEXT_PUBLIC_FATHOM_SITE_ID` environment variable. You’ll also need to add this environment variable to your project's deployment settings in Vercel (or wherever your project is hosted). _Note:_ _If you are not using Fathom analytics, you can delete the `hooks/useAnalytics` file and remove its invocation from `_app.tsx`._
-5. You’re ready to code! Start your development environment `npm run dev` and build something awesome.
+1. Navigate to the projects root directory and install its dependencies: `npm i`
+1. Open `lib/metaFields` in your editor and update the default meta fields. _Note: this is an important step, as these fields are referenced in the `SEO` component, `useAnalytics` hook, and `next-sitemap`._
+1. Rename the `.env.sample` file to `.env.local` and add your Fathom site id to the `NEXT_PUBLIC_FATHOM_SITE_ID` environment variable. You’ll also need to add this environment variable to your project's deployment settings in Vercel (or wherever your project is hosted). _Note:_ _If you are not using Fathom analytics, you can delete the `hooks/useAnalytics` file and remove its invocation from `_app.tsx`._
+1. You’re ready to code! Start your development environment `npm run dev` and build something awesome.
+1. To update dependencies and remove existing package files, node modules, and next directory/ cache, use the `npm run clean` command.
 
 ---
 
@@ -46,7 +47,7 @@
 
 ### 🙇‍♂️ Credits.
 
-- [Josh W Comeau](https://twitter.com/joshwcomeau) for his amazing [css reset](https://www.joshwcomeau.com/css/custom-css-reset/) that I _lightly_ extended for this starter.
+- [Josh W Comeau](https://twitter.com/joshwcomeau) for his amazing [css reset](https://www.joshwcomeau.com/css/custom-css-reset/) that I _lightly_ modified for this starter.
 
 ---
 
