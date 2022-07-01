@@ -1,9 +1,6 @@
-import type { NextPage } from 'next';
-import Layout from 'components/Layout';
-import SEO from 'components/SEO';
-import Link from 'components/Link';
+import { Layout, Link, SEO } from 'components';
 
-const PageNotFound: NextPage = () => {
+const NotFoundPage = () => {
   return (
     <Layout>
       <SEO pageName="Page Not Found" />
@@ -15,4 +12,4 @@ const PageNotFound: NextPage = () => {
   );
 };
 
-export default PageNotFound;
+export default NotFoundPage;

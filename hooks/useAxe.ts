@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 
-const useAxe = () => {
+export const useAxe = () => {
   useEffect(() => {
     if (process.env.NODE_ENV !== 'production') {
       const axe = require('@axe-core/react');
@@ -9,5 +9,3 @@ const useAxe = () => {
     }
   }, []);
 };
-
-export default useAxe;

@@ -1,9 +1,7 @@
 import type { AppProps } from 'next/app';
-import GlobalStyles from 'styles/global';
+import { GlobalStyles, theme } from 'styles';
 import { ThemeProvider } from 'styled-components';
-import useAxe from 'hooks/useAxe';
-import useAnalytics from 'hooks/useAnalytics';
-import theme from 'styles/theme';
+import { useAnalytics, useAxe } from 'hooks';
 
 const App = ({ Component, pageProps }: AppProps) => {
   useAxe();

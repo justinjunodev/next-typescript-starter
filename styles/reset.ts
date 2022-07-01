@@ -1,24 +1,26 @@
 import { css } from 'styled-components';
 
 const reset = css`
+  *:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
+
   *,
   *::before,
   *::after {
     box-sizing: border-box;
   }
 
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
   html,
   body {
     height: 100%;
+    scroll-behavior: smooth;
   }
 
-  body {
-    -webkit-font-smoothing: antialiased;
+  ol,
+  ul {
+    list-style: none;
   }
 
   img,
@@ -28,13 +30,6 @@ const reset = css`
   svg {
     display: block;
     max-width: 100%;
-  }
-
-  input,
-  button,
-  textarea,
-  select {
-    font: inherit;
   }
 
   p,
@@ -47,8 +42,27 @@ const reset = css`
     overflow-wrap: break-word;
   }
 
+  textarea {
+    white-space: revert;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
   #__next {
+    font-family: sans-serif;
     isolation: isolate;
+  }
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    html {
+      @-moz-document url-prefix() {
+        & {
+          scroll-behavior: initial;
+        }
+      }
+    }
   }
 `;
 

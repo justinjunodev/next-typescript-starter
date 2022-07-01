@@ -1,9 +1,6 @@
-import type { NextPage } from 'next';
-import Layout from 'components/Layout';
-import Link from 'components/Link';
-import SEO from 'components/SEO';
+import { Layout, Link, SEO } from 'components';
 
-const Home: NextPage = () => {
+const HomePage = () => {
   return (
     <Layout>
       <SEO pageName="Home" />
@@ -22,4 +19,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default HomePage;
