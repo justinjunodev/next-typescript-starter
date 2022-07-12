@@ -47,8 +47,8 @@
 
 ### 🙇‍♂️ Credits.
 
-- [Josh Comeau](https://twitter.com/joshwcomeau) for their amazing [css reset](https://www.joshwcomeau.com/css/custom-css-reset/) that I _lightly_ modified for this starter.
-- [Scott Moss](https://twitter.com/scotups) for their amazing [eslint config](https://frontendmasters.com/courses/fullstack-app-next/) that I _lightly_ modified for this starter.
+- [Josh Comeau](https://twitter.com/joshwcomeau) for their amazing [css reset](https://www.joshwcomeau.com/css/custom-css-reset/) that I modified for this starter.
+- [Scott Moss](https://twitter.com/scotups) for their amazing [eslint config](https://frontendmasters.com/courses/fullstack-app-next/) that I modified for this starter.
 
 ---
 
