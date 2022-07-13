@@ -6,4 +6,5 @@ export const metaFields = {
   siteUrl: 'https://www.domain.com',
   siteImage: '/images/preview.png',
   siteFavicon: '/images/favicon.ico',
+  siteLang: 'en',
 };
