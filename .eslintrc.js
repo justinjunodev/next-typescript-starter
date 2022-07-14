@@ -26,6 +26,10 @@ module.exports = {
         tsx: 'never',
       },
     ],
+    'import/no-extraneous-dependencies': [
+      'off',
+      { devDependencies: ['./tests'] },
+    ],
     'import/no-named-default': 'off',
     'import/prefer-default-export': 'off',
     'no-param-reassign': 'off',
