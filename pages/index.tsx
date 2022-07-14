@@ -6,8 +6,8 @@ const HomePage = () => {
       <SEO pageName="Home" />
       <h1>Next + TypeScript Starter</h1>
       <p>
-        Featuring Styled-Components, ESLint, Prettier, Axe a11y monitoring,
-        Fathom analytics, sitemap generation, and more!
+        Featuring Styled-Components, Playwright, ESLint, Prettier, Axe a11y
+        monitoring, Fathom analytics, sitemap generation, and more!
       </p>
       <Link
         href="https://github.com/justinjunodev/next-typescript-starter"
