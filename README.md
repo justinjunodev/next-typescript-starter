@@ -15,7 +15,7 @@
 - [x] `ESLint` + `Prettier` setup for maintaining code quality and formatting.
 - [x] `Playwright` configured for cross-browser and cross-platform testing.
 - [x] `useAnalytics` hook for quickly enabling site analytics via Fathom.
-- [x] `useAxe` hook for monitoring and reporting accessibility issues via Chrome console.
+- [x] `useAxe` hook for monitoring and reporting accessibility issues within dev console.
 - [x] Custom `SEO` component based on Open Graph standards.
 - [x] Custom `Link` component for handling both internal and external links.
 - [x] Custom `404` page for invalid routes.
@@ -31,7 +31,7 @@
 1. Rename the `.env.sample` file to `.env.local` and add your Fathom site id to the `NEXT_PUBLIC_FATHOM_SITE_ID` environment variable. You’ll also need to add this environment variable to your project's deployment settings in Vercel (or wherever your project is hosted). _Note:_ _If you are not using Fathom analytics, you can delete the `hooks/useAnalytics` file and remove its invocation from `_app.tsx`._
 1. You’re ready to code! Start your development environment `npm run dev` and build something awesome.
 1. To update dependencies and remove existing package files, node modules, and next directory/ cache, use the `npm run clean` command.
-1. Test are located within the `tests` directory and will run with the `npm run test` command. Results will be logged to the terminal by default. To view a full report, run `npm run test:report` after your tests have completed. To modify your testing configuration, see the `playwright.config.ts` file in the root directory.
+1. Test are located within the `tests` directory and will run with the `npm run test` command. Results will be logged by default. To view a full report, run `npm run test:report` after your tests have completed. To modify your testing configuration, see the `playwright.config.ts` file in the root directory.
 
 ---
 
