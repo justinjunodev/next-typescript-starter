@@ -51,7 +51,6 @@ const reset = css`
   }
 
   #__next {
-    font-family: sans-serif;
     isolation: isolate;
   }
 
