@@ -32,6 +32,14 @@ module.exports = {
     ],
     'import/no-named-default': 'off',
     'import/prefer-default-export': 'off',
+    'jsx-a11y/anchor-is-valid': [
+      'error',
+      {
+        components: ['Link'],
+        specialLink: ['hrefLeft', 'hrefRight'],
+        aspects: ['invalidHref', 'preferButton'],
+      },
+    ],
     'no-param-reassign': 'off',
     'prefer-arrow-callback': 'off',
     'prettier/prettier': 'warn',
