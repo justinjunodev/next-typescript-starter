@@ -1,6 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import * as React from 'react';
 import { default as NextLink } from 'next/link';
-import * as S from './styled';
 
 interface LinkProps {
   href: string;
@@ -10,12 +10,12 @@ interface LinkProps {
 
 export const Link = ({ href, isExternal = false, children }: LinkProps) => {
   return isExternal ? (
-    <S.Link href={href} target="_blank" rel="noopener noreferrer">
+    <a href={href} target="_blank" rel="noopener noreferrer">
       {children}
-    </S.Link>
+    </a>
   ) : (
     <NextLink href={href} passHref>
-      <S.Link>{children}</S.Link>
+      <a>{children}</a>
     </NextLink>
   );
 };
