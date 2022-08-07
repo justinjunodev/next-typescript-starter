@@ -1,10 +1,13 @@
 import React from 'react';
-import * as S from './styled';
 
 interface LayoutProps {
   children: React.ReactNode;
 }
 
 export const Layout = ({ children }: LayoutProps) => {
-  return <S.Layout>{children}</S.Layout>;
+  return (
+    <div className="container h-screen max-w-xl flex flex-col place-content-center text-center px-4">
+      {children}
+    </div>
+  );
 };
