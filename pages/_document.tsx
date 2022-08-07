@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from 'next/document';
-
 import { metaFields } from 'lib';
 
 const Document = () => {
