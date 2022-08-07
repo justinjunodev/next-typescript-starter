@@ -6,7 +6,7 @@ const HomePage = () => {
       <SEO pageName="Home" />
       <h1 className="text-3xl font-bold">Next + TypeScript Starter</h1>
       <p className="my-4">
-        Featuring Styled-Components, Playwright, ESLint, Prettier, Axe a11y
+        Featuring Tailwind CSS, Playwright, ESLint, Prettier, Axe a11y
         monitoring, Fathom analytics, sitemap generation, and more!
       </p>
       <Link
