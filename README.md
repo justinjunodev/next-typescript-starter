@@ -1,6 +1,6 @@
 # Next + TypeScript Starter
 
-**A Next + TypeScript Starter by [Justin Juno](https://twitter.com/justinjunodev). Featuring Tailwind CSS, Playwright, ESLint, Prettier, Axe a11y monitoring, Fathom analytics, sitemap generation, and more!**
+**A Next + TypeScript Starter featuring Tailwind CSS, Playwright, ESLint, Prettier, Axe a11y monitoring, Fathom analytics, sitemap generation, and more!**
 
 ![image](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
