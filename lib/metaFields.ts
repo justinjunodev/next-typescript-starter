@@ -7,4 +7,4 @@ export const metaFields = {
   siteImage: '/images/preview.png',
   siteFavicon: '/images/favicon.ico',
   siteLang: 'en',
-};
+}

@@ -1,5 +1,5 @@
-import { Html, Head, Main, NextScript } from 'next/document';
-import { metaFields } from 'lib';
+import { Html, Head, Main, NextScript } from 'next/document'
+import { metaFields } from 'lib'
 
 const Document = () => {
   return (
@@ -10,7 +10,7 @@ const Document = () => {
         <NextScript />
       </body>
     </Html>
-  );
-};
+  )
+}
 
-export default Document;
+export default Document

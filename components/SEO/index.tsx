@@ -1,19 +1,19 @@
-import Head from 'next/head';
-import { metaFields } from 'lib';
+import Head from 'next/head'
+import { metaFields } from 'lib'
 
 interface SEOProps {
-  pageName?: string;
-  pageDesc?: string;
-  pageImage?: string;
+  pageName?: string
+  pageDesc?: string
+  pageImage?: string
 }
 
 export const SEO = ({ pageName, pageDesc, pageImage }: SEOProps) => {
   const { siteTitle, siteDesc, siteDomain, siteUrl, siteImage, siteFavicon } =
-    metaFields;
+    metaFields
 
-  const title = pageName ? `${pageName} | ${siteTitle}` : siteTitle;
-  const description = pageDesc || siteDesc;
-  const image = pageImage || siteImage;
+  const title = pageName ? `${pageName} | ${siteTitle}` : siteTitle
+  const description = pageDesc || siteDesc
+  const image = pageImage || siteImage
 
   return (
     <Head>
@@ -34,5 +34,5 @@ export const SEO = ({ pageName, pageDesc, pageImage }: SEOProps) => {
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
     </Head>
-  );
-};
+  )
+}

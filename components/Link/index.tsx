@@ -1,10 +1,10 @@
-import * as React from 'react';
-import { default as NextLink } from 'next/link';
+import * as React from 'react'
+import { default as NextLink } from 'next/link'
 
 interface LinkProps {
-  href: string;
-  isExternal?: boolean;
-  children: React.ReactNode;
+  href: string
+  isExternal?: boolean
+  children: React.ReactNode
 }
 
 export const Link = ({ href, isExternal = false, children }: LinkProps) => {
@@ -16,5 +16,5 @@ export const Link = ({ href, isExternal = false, children }: LinkProps) => {
     <NextLink href={href} passHref>
       <a>{children}</a>
     </NextLink>
-  );
-};
+  )
+}

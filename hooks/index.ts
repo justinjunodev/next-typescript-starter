@@ -1,2 +1,2 @@
-export * from './useAnalytics';
-export * from './useAxe';
+export * from './useAnalytics'
+export * from './useAxe'

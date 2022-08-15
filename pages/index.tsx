@@ -1,4 +1,4 @@
-import { Layout, Link, SEO } from 'components';
+import { Layout, Link, SEO } from 'components'
 
 const HomePage = () => {
   return (
@@ -16,7 +16,7 @@ const HomePage = () => {
         View on GitHub
       </Link>
     </Layout>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage
