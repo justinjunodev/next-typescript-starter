@@ -6,8 +6,8 @@ interface LayoutProps {
 
 export const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="container flex h-screen max-w-xl flex-col place-content-center px-4 text-center">
+    <main className="container flex h-screen max-w-xl flex-col place-content-center px-4 text-center">
       {children}
-    </div>
+    </main>
   )
 }
